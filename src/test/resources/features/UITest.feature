@@ -1,6 +1,7 @@
+@ui @UItest
 Feature: American Burger & Pizza House Augsburg UI Test
 
-  @test01 @UItest
+  @test01
   Scenario: Shopping cart subtotal should match user added items
     Given User navigates to the "ui_url" website
     When User clicks "Burger" category
@@ -10,7 +11,7 @@ Feature: American Burger & Pizza House Augsburg UI Test
     And User clicks 3 times "plus" in "Cheeseburger"
     Then User added item total and shopping cart subtotal should match
 
-  @test02 @UItest
+  @test02
   Scenario: Add food on shopping cart and delete then check
     Given User navigates to the "ui_url" website
     When User clicks "Angebote" category

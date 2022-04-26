@@ -12,13 +12,12 @@ import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
-    @Before
+    @Before("@ui")
     public void setUp(){
-        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Driver.get().manage().window().maximize();
     }
 
-    @After
+    @After("@ui")
     public void tearDown(Scenario scenario){
         if (scenario.isFailed()){
             final byte[] screenshot = ((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
