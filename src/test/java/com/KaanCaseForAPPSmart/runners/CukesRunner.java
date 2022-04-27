@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/KaanCaseForAPPSmart/step_definitions",
         dryRun = false,
-        tags = "@APITest"
+        tags = "@UItest"
 )
 public class CukesRunner {
 }
