@@ -1,5 +1,5 @@
 @APITest
-Feature: Hepsiburada Petstore CRUD Tests
+Feature: App Smart Petstore CRUD Tests
 
 
   Scenario: Add pet and check
