@@ -9,4 +9,4 @@
 * Project support different browsers, selenium grid and parallel testing
 * For reporting was used "maven-cucumber-reporting plugin" version "5.0.0"
 * Project was developed with **[Intellij IDEA](https://www.jetbrains.com/idea/)**
-* You can find the task details on **[App Smart - Case Study](https://drive.google.com/drive/u/0/folders/1eQoDPoZRZATRIUE8cEj0F_-KCCWekdlR)**
+* You can find the task details on **[App Smart - Case Study](https://drive.google.com/file/d/1tPIg0R4WIEVG25v9qMIm2h3B20DCmST3/view?usp=sharing)**
