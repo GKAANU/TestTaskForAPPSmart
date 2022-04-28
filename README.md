@@ -27,7 +27,6 @@
           * utilities ==> contains utility classes for test run
         * resource folder ==> contains feature/execution files for scenarios which has written gherkin.
     * configuration.properties ==> contains several options like browser and URLs that using in the project;
-    * docker-compose.yml ==> provide using docker containers for selenium grid operations
     * pom.xml ==> contains dependencies, options, plugins that the project needs
 * In additional, there is some detail tips in the relevant class for methods and classes
 
