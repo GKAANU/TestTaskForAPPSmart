@@ -17,7 +17,7 @@
     * src folder ==> contains test codes and feature files (main body of code structure)
         * src folder structure like the below
         
-      ![structure](Capture.png)   
+      ![structure](Capture.PNG)   
     
         * java folder contain main code structure and resource folder contain feature/scenario files
           * POM design pattern was used in JAVA folder
